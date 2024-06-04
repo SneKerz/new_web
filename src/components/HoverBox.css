@@ -1,0 +1,17 @@
+.hover-box {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+    z-index: 1000;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .hover-box.visible {
+    opacity: 1;
+    
+  }
+  
